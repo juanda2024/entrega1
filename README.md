@@ -16,4 +16,4 @@ And in its content I briefly describe aspects such as:
 - What i do in my free time (hoobies)
 - My academical and personal accomplishments
 
-URL to view my personal webpage: YYY.
+URL to view my personal webpage: https://juanda2024.github.io/.
