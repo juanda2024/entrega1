@@ -1,0 +1,409 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  width: auto;
+  height: auto;
+
+  background: url(https://i.redd.it/pubyewm8csz41.jpg);
+  background-size: cover;
+}
+
+.sec-1 {
+  width: 100%;
+  background: rgb(241, 237, 237) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.sec-2 {
+  width: 100%;
+  background: black no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.sec-3 {
+  width: 100%;
+  background: white no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.sec-4 {
+  width: 100%;
+  background: black no-repeat 50% 50%;
+  background-size: cover;
+}
+
+section:nth-child(1) {
+  background: lightblue;
+}
+
+.navbar {
+  background-color: rgba(3, 9, 36, 0.212);
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar .navbar-brand:hover:not(.active) {
+  color: grey;
+}
+
+nav ul {
+  line-height: 40px;
+  overflow: hidden;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 12px 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+ul.topnav li a:hover:not(.active) {
+  color: grey;
+}
+
+.introduction-section {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 750px;
+}
+.introduction-section .welcome-text {
+  position: relative;
+  z-index: 1;
+}
+.introduction-section .welcome-text h2 {
+  font-weight: 700;
+  font-size: 82px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.introduction-section .welcome-text p {
+  padding-top: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.introduction-section .welcome-text .hero-btn-group a {
+  background: #ff9696;
+  border: 2px solid #f07878;
+  border-radius: 50px;
+  padding: 15px 20px;
+  width: 40%;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+.sec-1 .image_container {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile_picture {
+  width: 270px;
+  height: 270px;
+}
+
+.sec-1 .contact-info {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-1 .contact-info li {
+  text-align: center;
+}
+
+.sec-1 .about_container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-content: center;
+  z-index: 2;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.sec-1 .about_container {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.sec-1 .about_container h2 {
+  font-weight: 700;
+  font-size: 82px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec-1 .about_container p {
+  padding-top: 20px;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.sec-2 .my_proyects {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-2 .detail_proyect {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-2 .my_proyects h2 {
+  font-weight: 700;
+  font-size: 82px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec-2 .detail_proyect .card {
+  width: 60%;
+}
+
+.sec-2 .detail_proyect iframe {
+  height: 400px;
+}
+
+.sec-2 .detail_proyect {
+  padding-bottom: 40px;
+}
+
+.sec-2 .detail_proyect .card-body h5 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.sec-2 .detail_proyect .card-body p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.sec-2 .detail_proyect .card-body .link-truever a {
+  background: #6927ff;
+  border: 2px solid #5010e4;
+  border-radius: 50px;
+  padding: 15px 20px;
+  width: 20%;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+.sec-2 .detail_proyect .card-body .link-designow a {
+  background: #98ccd3;
+  border: 2px solid #75adb4;
+  border-radius: 50px;
+  padding: 15px 20px;
+  width: 20%;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+.sec-2 .detail_proyect .card-body .link-truever {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-2 .detail_proyect .card-body .link-designow {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-3 .my_intereses {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-3 .my_intereses .title_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-3 .my_intereses .title_content h2 {
+  font-weight: 700;
+  font-size: 60px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec-3 .my_intereses .card_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: gray;
+}
+
+.sec-3 .my_intereses .card_content .card {
+  width: 60%;
+  background-color: rgb(182, 182, 182);
+}
+
+.sec-3 .my_intereses .card_content img {
+  align-self: center;
+  padding-top: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sec-3 .my_intereses .card_content .card .card-body p {
+  text-align: center;
+}
+
+.sec-3 .my_hoobies {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-3 .my_hoobies .title_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-3 .my_hoobies .title_content h2 {
+  font-weight: 700;
+  font-size: 60px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec-3 .my_hoobies .card_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: gray;
+}
+
+.sec-3 .my_hoobies .card_content .card {
+  width: 60%;
+  background-color: rgb(182, 182, 182);
+}
+
+.sec-3 .my_hoobies .card_content .card .card-body p {
+  text-align: center;
+}
+
+.sec-3 .my_habilities {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-3 .my_habilities .title_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-3 .my_habilities .title_content h2 {
+  font-weight: 700;
+  font-size: 60px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec-3 .my_habilities .card_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: gray;
+}
+
+.sec-3 .my_habilities .card_content .card {
+  width: 60%;
+  background-color: rgb(182, 182, 182);
+}
+
+.sec-3 .my_habilities .card_content img {
+  align-self: center;
+  padding-top: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sec-3 .my_habilities .card_content .card .card-body p {
+  text-align: center;
+}
+
+.sec-4 .experience_title {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-4 .experience_title h2 {
+  font-weight: 700;
+  font-size: 60px;
+  display: block;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#ff9696, #ffe89e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sec-4 .experience_detail {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
