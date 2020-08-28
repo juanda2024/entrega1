@@ -80,10 +80,10 @@ ul.topnav li a:hover:not(.active) {
 }
 
 .introduction-section {
+  padding-top: 120px;
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 750px;
 }
 .introduction-section .welcome-text {
   position: relative;
@@ -91,7 +91,7 @@ ul.topnav li a:hover:not(.active) {
 }
 .introduction-section .welcome-text h2 {
   font-weight: 700;
-  font-size: 82px;
+  font-size: 75px;
   display: block;
   margin-bottom: 0;
   background: -webkit-linear-gradient(#ff9696, #ffe89e);
@@ -105,6 +105,10 @@ ul.topnav li a:hover:not(.active) {
   font-size: 20px;
   margin-bottom: 50px;
   display: block;
+}
+
+.introduction-section .welcome-text .hero-btn-group {
+  padding-bottom: 70px;
 }
 
 .introduction-section .welcome-text .hero-btn-group a {
@@ -158,7 +162,7 @@ ul.topnav li a:hover:not(.active) {
 
 .sec-1 .about_container h2 {
   font-weight: 700;
-  font-size: 82px;
+  font-size: 100%;
   display: block;
   margin-bottom: 0;
   background: -webkit-linear-gradient(#ff9696, #ffe89e);
@@ -227,8 +231,8 @@ ul.topnav li a:hover:not(.active) {
   width: 20%;
   color: white;
   font-weight: bold;
-  font-size: 17px;
-  text-align: center;
+  font-size: 13px;
+  text-align: justify;
 }
 
 .sec-2 .detail_proyect .card-body .link-designow a {
@@ -239,7 +243,7 @@ ul.topnav li a:hover:not(.active) {
   width: 20%;
   color: white;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -266,7 +270,7 @@ ul.topnav li a:hover:not(.active) {
 
 .sec-3 .my_intereses .title_content h2 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
   display: block;
   margin-bottom: 0;
   background: -webkit-linear-gradient(#ff9696, #ffe89e);
@@ -312,7 +316,7 @@ ul.topnav li a:hover:not(.active) {
 
 .sec-3 .my_hoobies .title_content h2 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
   display: block;
   margin-bottom: 0;
   background: -webkit-linear-gradient(#ff9696, #ffe89e);
@@ -351,7 +355,7 @@ ul.topnav li a:hover:not(.active) {
 
 .sec-3 .my_habilities .title_content h2 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
   display: block;
   margin-bottom: 0;
   background: -webkit-linear-gradient(#ff9696, #ffe89e);
@@ -394,6 +398,7 @@ ul.topnav li a:hover:not(.active) {
 .sec-4 .experience_title h2 {
   font-weight: 700;
   font-size: 60px;
+  text-align: center;
   display: block;
   margin-bottom: 0;
   background: -webkit-linear-gradient(#ff9696, #ffe89e);
