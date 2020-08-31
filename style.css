@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -13,7 +12,6 @@ body {
 header {
   width: auto;
   height: auto;
-
   background: url(https://i.redd.it/pubyewm8csz41.jpg);
   background-size: cover;
 }
@@ -47,7 +45,7 @@ section:nth-child(1) {
 }
 
 .navbar {
-  background-color: rgba(3, 9, 36, 0.212);
+  background-color: rgba(3, 9, 36, 0.4);
 }
 
 .navbar .navbar-brand {
@@ -65,6 +63,7 @@ nav ul {
   overflow: hidden;
   text-align: center;
 }
+
 nav ul li {
   display: inline-block;
   padding: 12px 30px;
@@ -85,10 +84,12 @@ ul.topnav li a:hover:not(.active) {
   z-index: 2;
   width: 100%;
 }
+
 .introduction-section .welcome-text {
   position: relative;
   z-index: 1;
 }
+
 .introduction-section .welcome-text h2 {
   font-weight: 700;
   font-size: 75px;
@@ -182,12 +183,17 @@ ul.topnav li a:hover:not(.active) {
   padding-top: 20px;
   display: flex;
   justify-content: center;
+  padding: 20px 8px 8px 8px;
 }
 
 .sec-2 .detail_proyect {
   padding-top: 30px;
   display: flex;
   justify-content: center;
+}
+
+.sec-2 .row {
+  margin: 0px!important;
 }
 
 .sec-2 .my_proyects h2 {
@@ -388,6 +394,10 @@ ul.topnav li a:hover:not(.active) {
   text-align: center;
 }
 
+.sec-3 .row {
+  margin: 0px;
+}
+
 .sec-4 .experience_title {
   padding-top: 15px;
   display: flex;
@@ -411,4 +421,8 @@ ul.topnav li a:hover:not(.active) {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sec-4 .row {
+  margin: 0px;
 }
